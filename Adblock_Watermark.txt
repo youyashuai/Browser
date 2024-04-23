@@ -14,9 +14,6 @@ www.baidu.com##div[class*='watermark_']:style(background-image:none!important)
 ! 百度 AI 助手
 chat.baidu.com##.watermark:style(display:none!important)
 
-! 百度内网
-family.baidu.com##div:style(background-image:none!important)
-
 ! 知谱ChatGLM
 chatglm.cn###wm_div_id:style(height:0 !important;width:0 !important;transform: rotate(90deg);overflow: hidden;)
 
@@ -67,6 +64,9 @@ www.weiciyun.com###svgBox
 
 ! 语雀文档
 www.yuque.com##.wm
+
+! 百度内网
+family.baidu.com##[watermark="main"]:style(background-image:none!important)
 
 ! 知识星球
 wx.zsxq.com##[watermark="main"]:style(background-image:none!important)
