@@ -1,0 +1,139 @@
+[Adblock Plus 2.0]
+! Title: 奶酪 网页水印过滤规则
+! Version: 2024-04-11
+! Expires: 2 days
+! Homepage: https://github.com/runningcheese/RunningCheese-Firefox/tree/master/Restore
+
+
+
+!-------------------------- AI 水印----------------------------------
+
+! 文心一言
+www.baidu.com##div[class*='watermark_']:style(background-image:none!important)
+
+! 百度 AI 助手
+chat.baidu.com##.watermark:style(display:none!important)
+
+! 知谱ChatGLM
+chatglm.cn###wm_div_id:style(height:0 !important;width:0 !important;transform: rotate(90deg);overflow: hidden;)
+
+! 讯飞星火
+xinghuo.xfyun.cn###watermark-wrapper
+
+! 天工 AI
+chat.tiangong.cn##div:style(background-image:none!important)
+search.tiangong.cn##div:style(background-image:none!important)
+
+! 百川大模型
+www.baichuan-ai.com##div[class*='water-mark_watermark'] span:style(display:none!important)
+
+! 商汤商量
+chat.sensetime.com##.adm-water-mark:style(display:none!important)
+
+! 腾讯混元
+hunyuan.tencent.com##.__water_mark__:style(display:none!important)
+
+! 360 智脑
+chat.360.com###nworld-app-container div>div[style*=pointer-events][style*="data:image/"]:style(display:none!important)
+
+! CSDN AI
+so.csdn.net##.username_mask_cover:style(background-image:none!important)
+
+! 海螺问问
+hailuoai.com##.adm-water-mark:style(display:none!important)
+
+! Liblib
+www.liblib.art##.watermark-text
+
+
+
+!--------------------------文档水印----------------------------------
+
+! 腾讯文档
+docs.qq.com##.watermark-bg
+
+! iDocView
+idocv.com##.mask_div
+
+! 飞书文档
+feishu.cn##.ssrWaterMark
+feishu.cn##div:style(background-image:none!important)
+
+! 微词云
+www.weiciyun.com###svgBox
+
+! 语雀文档
+www.yuque.com##.wm
+
+! 知识星球
+wx.zsxq.com##[watermark="main"]:style(background-image:none!important)
+articles.zsxq.com##.js_watermark:style(background-image:none!important)
+
+! 字条跳动社区
+bytedance.larkoffice.com##.TIAWBFTROSIDWYKTTIAW3_clear:style(background-image:none!important)
+
+
+!--------------------------设计水印----------------------------------
+
+! gaoding.com 
+gaoding.com##.editor-watermark
+gaoding.com##.remove-watermark
+gaoding.com##.editor-bottom
+gaoding.com##.dbu-remove-watermark-button
+gaoding.com##div:style(background-image:none!important)
+
+! fotor.com
+fotor.com##.lower-canvas
+
+! ue.818ps.com
+ue.818ps.com##.image-watermark
+
+! www.eqxiu.com
+www.eqxiu.com##div.eqc-watermark
+www.eqxiu.com##.eqc-wm-close
+
+! www.isheji.com
+www.isheji.com##.editor-watermask
+www.isheji.com###editorDrag > div.undefined.scrolly > div.scrolly-viewport.editor-center > div > div:nth-child(1)
+
+! www.chuangkit.com
+www.chuangkit.com##div[style*='ckt-watermark']
+www.chuangkit.com##.remove-cktTemplate-watermark
+
+! bigesj.com
+bigesj.com##div.water
+bigesj.com##.water-tip
+
+! www.logosc.cn
+www.logosc.cn##.watermarklayer
+
+! www.logomaker.com.cn
+www.logomaker.com.cn##div.watermark
+
+! ai.logo123.com
+ai.logo123.com##.watermarklayer
+
+! www.picup.shop
+www.picup.shop##.subs:style(background-image:none!important)
+
+! tusij.com
+888-ue.tusij.com##div:style(background-image:none!important)
+
+! Vividshare
+vividshare.io##.drop-shadow-md:style(display:none!important)
+
+
+!--------------------------视频水印----------------------------------
+
+! 腾讯视频 Logo
+v.qq.com##.txp-watermark:style(opacity:0!important)
+v.qq.com##.reative-player-pause-layer:style(display:none!important)
+
+! 优酷视频 Logo
+v.youku.com##.kui-watermark-0:style(display:none!important)
+
+! B站直播 Logo
+live.bilibili.com##.web-player-icon-roomStatus:style(opacity:0!important)
+
+! 爱奇艺 Logo
+www.iqiyi.com##.iqp-logo-box:style(display:none!important)
