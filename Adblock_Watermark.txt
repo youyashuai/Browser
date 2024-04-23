@@ -66,7 +66,11 @@ www.weiciyun.com###svgBox
 www.yuque.com##.wm
 
 ! 百度内网
+family.baidu.com##div:style(background-image:none!important)
 family.baidu.com##[watermark="main"]:style(background-image:none!important)
+family.baidu.com##.editor-bottom
+family.baidu.com##.ssrWaterMark
+family.baidu.com##.username_mask_cover:style(background-image:none!important)
 
 ! 知识星球
 wx.zsxq.com##[watermark="main"]:style(background-image:none!important)
