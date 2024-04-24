@@ -17,6 +17,9 @@ chat.baidu.com##.watermark:style(display:none!important)
 ! 百度内网
 family.baidu.com##div:style(background-image:none!important)
 
+! 百度OKR
+okr.baidu-int.com##div:style(background-image:none!important)
+
 ! 知谱ChatGLM
 chatglm.cn###wm_div_id:style(height:0 !important;width:0 !important;transform: rotate(90deg);overflow: hidden;)
 
