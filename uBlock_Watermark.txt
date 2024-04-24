@@ -2,7 +2,7 @@
 ! Title: 网页水印过滤规则
 ! Version: 2024-04-23
 ! Expires: 2 days
-! Homepage: https://github.com/youyashuai/Browser/edit/main/Adblock_Watermark.txt
+! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Watermark.txt
 
 
 
