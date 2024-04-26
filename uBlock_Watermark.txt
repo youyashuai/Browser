@@ -26,6 +26,9 @@ ku.baidu-int.com##div:style(background-image:none!important)
 ! 百度域名
 baidu.com##div:style(background-image:none!important)
 
+! 百度int
+baidu-int.com##div:style(background-image:none!important)
+
 ! 知谱ChatGLM
 chatglm.cn###wm_div_id:style(height:0 !important;width:0 !important;transform: rotate(90deg);overflow: hidden;)
 
