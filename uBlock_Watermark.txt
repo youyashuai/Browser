@@ -20,6 +20,9 @@ family.baidu.com##div:style(background-image:none!important)
 ! 百度OKR
 okr.baidu-int.com##div[class*='inpt-watermark_']:style(background-image:none!important)
 
+! 百度知识库
+ku.baidu-int.com##div:style(background-image:none!important)
+
 ! 百度域名
 baidu.com##div:style(background-image:none!important)
 
