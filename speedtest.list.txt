@@ -1,0 +1,11 @@
+# NAME: speedest.cn&DDNS
+DOMAIN-SUFFIX,cesu-hz.zjtelecom.com.cn.prod.hosts.ooklaserver.net
+DOMAIN-SUFFIX,upload1.testspeed.cdn16.com.prod.hosts.ooklaserver.net
+DOMAIN-SUFFIX,cesu-nb.zjtelecom.com.cn.prod.hosts.ooklaserver.net
+DOMAIN-SUFFIX,synology.cn
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,quickconnect.cn
+DOMAIN-SUFFIX,akamai.com
+DOMAIN-SUFFIX,dyndns.com
+DOMAIN-SUFFIX,dyndns.org
