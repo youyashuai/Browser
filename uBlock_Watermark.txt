@@ -23,7 +23,10 @@ okr.baidu-int.com##div[class*='inpt-watermark_']:style(background-image:none!imp
 ! 百度知识库
 ku.baidu-int.com##div:style(background-image:none!important)
 
-! 百度域名
+! 百度排查兔
+tool.baidu.com##div[class*='__wm']:style(background-image:none!important)
+
+! 百度Domain
 baidu.com##div:style(background-image:none!important)
 
 ! 百度int
