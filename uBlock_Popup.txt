@@ -2,7 +2,7 @@
 ! Title: 网页弹窗过滤规则
 ! Version: 2024-05-07
 ! Expires: 2 days
-! Homepage: 
+! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Popup.txt
 
 ! 雪球
 xueqiu.com##.js-shown.dimmer.modals
