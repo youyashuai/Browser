@@ -1,0 +1,60 @@
+[Adblock Plus 2.0]
+! Title: 网页弹窗过滤规则
+! Version: 2024-05-07
+! Expires: 2 days
+! Homepage: 
+
+! 雪球
+xueqiu.com##.js-shown.dimmer.modals
+
+! B 站首页 
+www.bilibili.com##.adblock-tips
+
+! 屏蔽 Sharethis 社会化插件
+platform-api.sharethis.com
+
+! ChatGPT 免弹窗
+chat.openai.com##.md\:grid-rows-\[minmax\(20px\,_1fr\)_auto_minmax\(20px\,_1fr\)\].grid-rows-\[minmax\(10px\,_1fr\)_auto_minmax\(10px\,_1fr\)\].overflow-y-auto.grid-cols-\[10px_1fr_10px\].w-full.h-full.grid
+chat.openai.com##.dark\:bg-black\/80.bg-black\/50.inset-0.fixed
+chatgpt.com##.md\:grid-rows-\[minmax\(20px\,_1fr\)_auto_minmax\(20px\,_1fr\)\].grid-rows-\[minmax\(10px\,_1fr\)_auto_minmax\(10px\,_1fr\)\].overflow-y-auto.grid-cols-\[10px_1fr_10px\].w-full.h-full.grid
+chatgpt.com##.dark\:bg-black\/80.bg-black\/50.inset-0.fixed
+
+! 移除 Google 在 Youtube 人为添加的延迟载入
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+! 移除 Google 搜索拖拽导致的 Lens 弹窗
+www.google.com##+js(aeld, dragenter)
+www.google.com.hk##+js(aeld, dragenter)
+
+! 移除b站的各种弹窗，包括投票、三连、打星窗口等。
+www.bilibili.com##.bpx-player-cmd-dm-inside
+
+! www.mvcat.com
+www.mvcat.com##.wxfollow
+
+! upyunso.com 
+upyunso.com###layui-layer1
+upyunso.com###layui-layer-shade1
+upyunso.com##+js(set-constant, window.layer.open, noopFunc)
+
+! cuppaso.com 
+www.cuppaso.com##.text-center.col
+www.cuppaso.com##.show.fade.modal-blur.modal
+www.cuppaso.com##.show.fade.modal-backdrop
+
+! www.6453.net
+www.6453.net###mainshadow
+
+! xclient.info
+xclient.info##.show.abptip
+
+! www.123pan.com
+www.123pan.com##.advBanner
+www.123pan.com##.ant-layout > div
+
+! ruancang.net
+ruancang.net##.pass-box
+ruancang.net###password
