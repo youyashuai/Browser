@@ -19,6 +19,8 @@ family.baidu.com##div:style(background-image:none!important)
 
 ! 百度OKR
 okr.baidu-int.com##div[class*='inpt-watermark_']:style(background-image:none!important)
+okr.baidu-int.com##div[class*='tree-wrap']:style(background-image:none!important)
+okr.baidu-int.com##div[class*='card-wrap']:style(background-image:none!important)
 
 ! 百度duhr
 duhr.baidu.com##div:style(background-image:none!important)
