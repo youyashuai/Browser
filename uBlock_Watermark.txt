@@ -31,6 +31,9 @@ ku.baidu-int.com##div:style(background-image:none!important)
 ! 百度排查兔
 tool.baidu.com##div[class*='__wm']:style(background-image:none!important)
 
+! 百度品牌
+pinpai.baidu.com##div:style(background-image:none!important)
+
 ! 百度Domain
 ! baidu.com##div:style(background-image:none!important)
 
