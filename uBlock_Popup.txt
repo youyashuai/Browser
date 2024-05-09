@@ -7,6 +7,9 @@
 ! 雪球
 xueqiu.com##.js-shown.dimmer.modals
 
+! 简书
+jianshu.com##._23ISFX-content
+
 ! B 站首页 
 www.bilibili.com##.adblock-tips
 
