@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
 ! Title: 网页水印过滤规则
-! Version: 2024-04-23
+! Version: 2024-06-03
 ! Expires: 2 days
 ! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Watermark.txt
 
 
 
-!-------------------------- AI 水印----------------------------------
+!-------------------------- BaiDu 水印----------------------------------
 
 ! 文心一言
 www.baidu.com##div[class*='watermark_']:style(background-image:none!important)
@@ -40,6 +40,9 @@ pinpai.baidu.com##div:style(background-image:none!important)
 ! 百度int
 ! baidu-int.com##div:style(background-image:none!important)
 
+
+!-------------------------- AI 水印----------------------------------
+
 ! 知谱ChatGLM
 chatglm.cn###wm_div_id:style(height:0 !important;width:0 !important;transform: rotate(90deg);overflow: hidden;)
 
@@ -62,6 +65,9 @@ hunyuan.tencent.com##.__water_mark__:style(display:none!important)
 ! 360 智脑
 chat.360.com###nworld-app-container div>div[style*=pointer-events][style*="data:image/"]:style(display:none!important)
 
+! 360 AI 搜索
+so.360.com##div:style(background-image:none!important)
+
 ! CSDN AI
 so.csdn.net##.username_mask_cover:style(background-image:none!important)
 
@@ -71,6 +77,8 @@ hailuoai.com##.adm-water-mark:style(display:none!important)
 ! Liblib
 www.liblib.art##.watermark-text
 
+! DeepSeek
+chat.deepseek.com##.ds-watermark:style(display:none!important)
 
 
 !--------------------------文档水印----------------------------------
