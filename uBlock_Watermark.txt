@@ -40,6 +40,9 @@ pinpai.baidu.com##div:style(background-image:none!important)
 ! 百度int
 ! baidu-int.com##div:style(background-image:none!important)
 
+! 百度风铃
+ifengling.baidu.com##div:style(background-image:none!important)
+
 
 !-------------------------- AI 水印----------------------------------
 
