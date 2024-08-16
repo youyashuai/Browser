@@ -596,9 +596,9 @@ echo "文件已复制到脚本目录：$merged_file"
 # 执行测试命令
 echo "开始执行测试..."
 if [ $choice -eq 1 ]; then
-    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url http://cs.notls.zjccc.onflashdrive.app/200m -dd
+    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url http://cs.notls.zjccc.onflashdrive.app/200m
 else
-    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url https://cs.notls.zjccc.onflashdrive.app/200m -dd
+    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url https://cs.notls.zjccc.onflashdrive.app/200m
 fi
 
 echo "测试完成！"
