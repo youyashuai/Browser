@@ -596,9 +596,9 @@ echo "文件已复制到脚本目录：$merged_file"
 # 执行测试命令
 echo "开始执行测试..."
 if [ $choice -eq 1 ]; then
-    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url https://cdn.cloudflare.steamstatic.com/steam/apps/256843155/movie_max.mp4
+    ./CloudflareST -tp $port -f $text_file -n 200 -dn 5 -sl 10 -tl 400 -url https://cdn.cloudflare.steamstatic.com/steam/apps/256843155/movie_max.mp4
 else
-    ./CloudflareST -tp $port -f $text_file -n 200 -dn 10 -sl 10 -tl 400 -url https://speedtest.poorhub.pro/cf.7z
+    ./CloudflareST -tp $port -f $text_file -n 200 -dn 5 -sl 10 -tl 400 -url https://speedtest.poorhub.pro/cf.7z
 fi
 
 echo "测试完成！"
