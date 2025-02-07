@@ -25,6 +25,9 @@ okr.baidu-int.com##div[class*='card-wrap']:style(background-image:none!important
 ! 百度duhr
 duhr.baidu.com##div:style(background-image:none!important)
 
+! 百度绩效
+policy-incentive.now.baidu-int.com##div:style(background-image:none!important)
+
 ! 百度知识库
 ku.baidu-int.com##div:style(background-image:none!important)
 
