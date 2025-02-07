@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[uBlock Origin 1.62]
 ! Title: 网页水印过滤规则
 ! Version: 2025-02-07
 ! Expires: N days
