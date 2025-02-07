@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 网页水印过滤规则
-! Version: 2024-06-03
-! Expires: 2 days
+! Version: 2025-02-07
+! Expires: N days
 ! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Watermark.txt
 
 
