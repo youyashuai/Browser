@@ -4,6 +4,9 @@
 ! Expires: 2 days
 ! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Popup.txt
 
+! zju ds
+chat.zju.edu.cn##.overlay
+
 ! 雪球
 xueqiu.com##.js-shown.dimmer.modals
 
