@@ -1,6 +1,6 @@
 [uBlock Origin 1.62]
 ! Title: 网页水印过滤规则
-! Version: 2025-02-07
+! Version: 2025-07-02
 ! Expires: N days
 ! Homepage: https://github.com/youyashuai/Browser/blob/main/uBlock_Watermark.txt
 
