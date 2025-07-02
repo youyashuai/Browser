@@ -30,6 +30,9 @@ policy-incentive.now.baidu-int.com##div:style(background-image:none!important)
 
 ! 百度知识库
 ku.baidu-int.com##div:style(background-image:none!important)
+ku.baidu-int.com##waterMarkContainer
+ku.baidu-int.com##waterMarkContainer.WaterMark_waterMarkContainer__rAfA-
+
 
 ! 百度学习中心
 ucc.baidu-int.com##div:style(background-image:none!important)
