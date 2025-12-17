@@ -1,0 +1,9 @@
+[Adblock Plus 2.0]
+! Title: 张小轶 广告过滤规则
+! Version: 20251217
+! Expires: 2 days
+! Homepage: https://github.com/youyashuai/Browser
+
+! 2025年12月17日 http://ip.ping0.cc
+ip.ping0.cc##div.myeles:nth-of-type(5)
+ip.ping0.cc##.toprow.myeles
